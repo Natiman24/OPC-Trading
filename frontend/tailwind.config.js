@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         inter: ["var(--font-inter)"],
         lato: ["var(--font-lato)"],
+        fugaz: ["var(--font-fugaz)"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
