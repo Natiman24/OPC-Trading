@@ -1,0 +1,58 @@
+{
+ "products":[
+    {
+        "name":"Process Ink",
+        "image":"./product-1.png",
+        "packing":[
+            {"name":"CYAN . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"MAGENTA . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"YELLOW . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"BLACK . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            }
+        ]
+    },
+    {
+        "name":"Process Ink",
+        "image":"./product-1.png",
+        "packing":[
+            {"name":"CYAN . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"MAGENTA . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"YELLOW . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"BLACK . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            }
+        ]
+    },
+    {
+        "name":"Process Ink",
+        "image":"./product-1.png",
+        "packing":[
+            {"name":"CYAN . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"MAGENTA . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"YELLOW . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            },
+             {"name":"BLACK . 2.5kg/tin*15kg/box",
+            "price": "760.00/ kg"
+            }
+        ]
+    }
+ ]
+}

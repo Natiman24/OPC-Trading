@@ -30,4 +30,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .featured-products {
+    background-image: url("../../public/products-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
