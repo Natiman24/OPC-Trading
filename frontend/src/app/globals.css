@@ -26,6 +26,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -41,5 +50,8 @@ body {
     background-image: url("../../public/products-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .animate-slide-in {
+    animation: slide-in 0.3s ease-in-out;
   }
 }
