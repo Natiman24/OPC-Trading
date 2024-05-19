@@ -34,7 +34,7 @@ const Carousel = () => {
         {logos.map((logo , index) => {
           return (
            <div key={index} className='grid place-items-center'>
-            <img src={logo} alt='logo' className='w-40 mx-auto'/>
+            <img src={logo} alt='logo' className='w-[60%] lg:w-40 mx-auto'/>
            </div>
           )
         })}

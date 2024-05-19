@@ -5,11 +5,11 @@ const Footer = () => {
 
 
 <footer class="bg-background border-t-2 border-white text-white">
-    <div class="mx-auto w-full px-20 pr-10 p-4 py-6 lg:py-8">
+    <div class="mx-auto w-full px-8 lg:px-20 pr-10 p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a class="flex items-center">
-                  <img src="./logo.png" alt="logo" />
+                  <img src="./logo.png" alt="logo" className='max-sm:-ml-4'/>
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
