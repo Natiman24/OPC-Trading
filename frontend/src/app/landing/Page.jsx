@@ -4,7 +4,7 @@ import Products from "./components/Products";
 import Repair from "./components/Repair";
 import Service from "./components/Services";
 import Value from "./components/Values";
-import Carousel from "./components/Carousel";
+import Carousel from "./components/carousel";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
