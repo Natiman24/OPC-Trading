@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="h-28 w-full bg-background flex justify-between px-10 py-10 items-center">
+      <nav className="h-28 w-full bg-background flex justify-between pl-3 pr-5 md:px-10 py-10 items-center">
         <div className="my-10">
           <img src="./logo.png" alt="logo" />
         </div>
@@ -55,7 +55,7 @@ export default function Navbar() {
         </div>
       </nav>
       {isSidebarOpen && (
-        <div className="md:hidden bg-background fixed top-0 left-0 w-1/3 h-full z-50 shadow-xl shadow-white rounded-e-[3rem] animate-slide-in border-t-[1px] border-r-[1px]">
+        <div className="md:hidden bg-background fixed top-0 left-0 w-[60%] h-full z-50 shadow-sm shadow-white rounded-e-[3rem] animate-slide-in border-r-[1px]">
           <div className="absolute right-6 top-4 text-white">
           <button
             className="focus:outline-none"
@@ -86,7 +86,10 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-          <ul className="flex flex-col gap-4 text-white font-lato text-[1.2rem] pt-20 pl-10">
+        <img src="./logo.png" alt="logo" className='py-4 w-32' width={100}/>
+        <hr />
+
+          <ul className="flex flex-col gap-8 text-white font-lato text-[1.2rem] pt-5 pl-8">
             <li className="hover:cursor-pointer">Home</li>
             <li className="hover:cursor-pointer">Services</li>
             <li className="hover:cursor-pointer">Products</li>

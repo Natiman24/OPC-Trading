@@ -1,3 +1,4 @@
+'use client'
 import { motion } from "framer-motion";
 
 import { staggerContainer } from "../utils/motion";
@@ -10,12 +11,11 @@ const StarWrapper = (Component, idName) =>
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
-        className={` max-w-screen-2xl mx-auto relative z-0`}
+        className={` max-w-[1800px] mx-auto relative z-0`}
       >
         <span className='hash-span' id={idName}>
           &nbsp;
         </span>
-
         <Component />
       </motion.section>
     );
