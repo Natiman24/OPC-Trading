@@ -4,7 +4,8 @@ import Products from "./components/Products";
 import Repair from "./components/Repair";
 import Service from "./components/Services";
 import Value from "./components/Values";
-import Carousel from "./components/carousel";
+import Carousel from "./components/Carousel";
+import Testimonials from "./components/Testimonials";
 
 export default function Page() {
 
@@ -17,6 +18,7 @@ export default function Page() {
      <Repair/>
      <Products/>
      <Carousel/>
+     <Testimonials/>
     </>
   );
 }
