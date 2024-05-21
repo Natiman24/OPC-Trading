@@ -67,20 +67,18 @@ emailjs.send(
 
   return (
     <div
-      className='max-w-screen-md mx-20 pt-10 pb-20 bg-transparent'
+      className='max-w-screen-md mx-5 lg:mx-20 pt-10 pb-20 bg-transparent'
     >
       <ToastContainer />
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-slate-900 p-8 rounded-3xl'
+        className='bg-slate-900 p-8 rounded-3xl'
       >
-        <p className="text-white font-fugaz text-[4rem]">Get in touch</p>
-        <h3 className="text-white font-lato text-[2rem]">Contact.</h3>
-
+        <p className="text-white font-fugaz text-[3rem] lg:text-[4rem]">Get in touch</p>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-8 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
